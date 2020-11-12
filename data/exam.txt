@@ -1,0 +1,17 @@
+2032 dap form1 dap term 2 dap 11 dap 60 dap b+ dap 12 dap 23 dara
+2032 dap form2 dap term 3 dap 11 dap 34 dap b dap 12 dap 23 dara
+2032 dap form3 dap term 1 dap 11 dap 54 dap c+ dap 12 dap 23 dara
+2032 dap form4 dap term 1 dap 11 dap 76 dap d- dap 12 dap 23 dara
+2032 dap form1 dap term 2 dap 11 dap 35 dap c dap 12 dap 23 sumu
+2033 dap form2 dap term 3 dap 11 dap 76 dap b dap 12 dap 23 dara
+2033 dap form3 dap term 2 dap 11 dap 46 dap c+ dap 12 dap 23 dara
+2033 dap form4 dap term 2 dap 11 dap 17 dap d- dap 12 dap 23 dara
+2033 dap form1 dap term 1 dap 11 dap 78 dap c dap 12 dap 23 sumu
+2034 dap form2 dap term 2 dap 11 dap 47 dap b dap 12 dap 23 dara
+2034 dap form3 dap term 3 dap 11 dap 53 dap c+ dap 12 dap 23 dara
+2034 dap form4 dap term 1 dap 11 dap 78 dap d- dap 12 dap 23 dara
+2034 dap form1 dap term 2 dap  11 dap 54 dap c dap 12 dap 23 sumu
+2115 dap form1 dap term 1 dap 11 dap 54 dap c dap 12 dap 23 dara
+2115 dap form1 dap term 1 dap 11 dap 54 dap c dap 12 dap 23 dara
+2115 dap form1 dap term 3 dap 11 dap 54 dap c dap 12 dap 23 dara
+2115 dap form1 dap term 2 dap 11 dap 54 dap c dap 12 dap 23 sumu
