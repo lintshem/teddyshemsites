@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/dudilogo-121x105.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>NOTICEBOARD</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheets" href="assets/format/main.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <style>
+    table{
+        border:3px solid blue;
+        width:80%;
+      
+    }
+    tr:nth-child(even)  {
+        background-color:rgb(147, 228, 231);
+    }
+    tr:nth-child(odd){
+        background-color: rgba(6, 234, 250, 0.7);
+    }
+    tr:hover{
+        transition: background-color 1s linear;
+        background-color: rgb(243, 47, 233);
+    }
+    th{
+        background-color: rgba(18, 29, 179, 0.7);
+        color: white;
+    }
+    table td a{
+        color:blue;
+        font-size:large;
+
+    }
+
+    </style>
+  
+  
+</head>
+<body>
+  
+  <section class="menu cid-s48OLK6784" once="menu" id="menu1-12">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/dudilogo-121x105.png" alt="Mobirise" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">Dudi Girls High School</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="page3.html">
+                            About</a></li></ul>
+                
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="page1.html">Notice Board</a> <a class="btn btn-primary display-4" href="page2.html">
+                        Students Portal</a></div>
+            </div>
+        </div>
+    </nav>
+
+</section>
+
+<section class="content4 cid-sfPc2i91O0" id="content4-1g">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>DGHS NOTICE BOARD</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">We post all announcements on this board. Download the files in PDF format and view them remotely.</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header18 cid-sfPc3NuIKC mbr-fullscreen" id="header18-1h">
+
+    
+
+    
+
+    <div class="align-center container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <strong>
+                <div class="datatable" style="overflow-x:auto" >
+                <table  class="table" >
+                        <th>No</th> <th>Desciprtion</th> <th>Date</th><th>Download Link</th>
+                        <script type="text/javascript">
+                            var ajax=new XMLHttpRequest();
+                            if (ajax==null){ajax=new ActiveXObject("Microsoft.XMLHTTP");}
+                            ajax.open("GET","assets/data/notice.txt",false);
+                            ajax.send(null);
+                            if(ajax.readyState==4 && ajax.status==200){
+                                var text=ajax.responseText;
+                                var data=text.split("sumu");
+                                var str=new Array();
+                                for(var i=0;i<data.length-1;i++){
+                                   var col= data[i].split("dap");
+                                   var line="<tr><td>"+col[0]+"</td><td>"+col[1]+"</td><td>"+col[2]+"</td><td><a href='assets/data/"+col[3].trim()+"'</a>View</td></tr>";
+                                   document.write(line);
+
+                                }
+
+                            }
+                            
+                        </script>
+                </table>
+                </div>
+                </strong>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content16 cid-sfPc4MRJbh" id="content16-1i">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <div class="mbr-section-head align-center mb-4">
+                    <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong>School Must Knows(FAQs)</strong></h3>
+                    
+                </div>
+                <div id="bootstrap-accordion_14" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse1_14" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What subjects are offered in the school?</strong>
+                                </h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse1_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-7">The school offers a total of 13 subjects. Three compulsory English, Kiswahili and Mathematics. Together with 3 sciences Biology , Chemistry and Physics. In Addition with 3 humanities CRE, Geography, history and 4 technicals Business studies, Agriculture, french and Home Science.&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse2_14" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>When are the visiting days?
+                                    </strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse2_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">The school official visiting days are on the first sunday of each month unless communicated on the notice board otherwise. Please Note that the visiting time start at 9.00 am and ends at 5.00 pm.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse3_14" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What to carry for the visitings?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse3_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">We allow parents/Guardians to carry for their children cooked food and any other requirement. Carried cooked food will not be allowed in the dormitories though.&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse4_14" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What can cause students to be expelled?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse4_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Extreme cases of indiscipline which may include acts as follows; fighting in school, theft and vandalism (intentional damage of school property )&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse5_14" aria-expanded="false" aria-controls="collapse5">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How do i contact the school?
+                                    </strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse5_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Contact links to the school can be found on the the school home page and on the bottom of all pages on this site. We waiting to hear from you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse6_14" aria-expanded="false" aria-controls="collapse6">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What with the students portal?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse6_14" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_14">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    The students portal provide the student and their parents/guardians with personal information about their children and also&nbsp; capture the fee payment and exam results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-13">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                  <li class="foot-menu-item mbr-fonts-style display-7"><a href="index.html" class="text-success">Home</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page3.html" class="text-success text-primary">About</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page2.html" class="text-success text-primary">Students portal</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="page1.html" class="text-success text-primary">Notice Board</a></li></ul>
+                
+              </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/mobirise" target="_blank">
+                            <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="mailto:teddyshem100@gmail.com">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-mail socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/mobirise" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social mobi-mbri-phone mobi-mbri"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2020 DGSS. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="display:none"style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/l" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Built by <a href="" style="color:#aaa;">Teddy Shem</a> 0759697183</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
